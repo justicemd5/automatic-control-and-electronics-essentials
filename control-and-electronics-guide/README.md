@@ -267,6 +267,24 @@ If any of these feel rusty, start with the **appendix/** refresher materials.
 | python-control | Control systems toolbox | `pip install control` |
 | GCC/ARM-GCC | Embedded C compilation | System package manager |
 | Icarus Verilog | HDL simulation (optional) | `apt install iverilog` |
+| LaTeX (pdflatex) | PDF generation (optional) | See `../build_latex/README.md` |
+
+---
+
+## 📄 PDF Documentation
+
+**Having trouble viewing math formulas in markdown?**
+
+This repository includes a LaTeX/PDF build system that converts all documentation into a professionally formatted PDF with properly rendered mathematical formulas.
+
+```bash
+cd build_latex
+make
+```
+
+This generates `control-electronics-guide.pdf` with all content and perfectly rendered math.
+
+See [../build_latex/README.md](../build_latex/README.md) for detailed instructions and requirements.
 
 ---
 

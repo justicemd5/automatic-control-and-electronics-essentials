@@ -1,0 +1,16 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Generated LaTeX file (optional - uncomment if you want to exclude it)
+# control-electronics-guide.tex
+
+# Keep the PDF out of git (it's large and generated)
+*.pdf
