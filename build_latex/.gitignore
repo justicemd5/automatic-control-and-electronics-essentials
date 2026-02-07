@@ -9,6 +9,10 @@
 *.fdb_latexmk
 *.synctex.gz
 
+# Python cache
+__pycache__/
+*.pyc
+
 # Generated LaTeX file (optional - uncomment if you want to exclude it)
 # control-electronics-guide.tex
 
